@@ -3,7 +3,7 @@
     "require": {
         "yiisoft/yii2": "2.0.10"
     },
-    "minimum-stability": "stable",
+    "version": "1.0.0",
     "scripts": {
         "pre-install-cmd": "qwe.sh"
     }
