@@ -1,0 +1,9 @@
+{
+    "name": "root/repo_test",
+    "require": {
+        "yiisoft/yii2": "2.0.10"
+    },
+    "scripts": {
+        "pre-install-cmd": "qwe.sh"
+    }
+}
