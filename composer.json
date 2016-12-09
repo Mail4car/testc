@@ -25,6 +25,6 @@
         "post-package-uninstall": "mkdir post-package-uninstall",
         "init": "mkdir init",
         "command": "mkdir command",
-        "pre-file-download": "mkdir pre-file-download",
+        "pre-file-download": "mkdir pre-file-download"
     }
 }
