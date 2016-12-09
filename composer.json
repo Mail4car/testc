@@ -5,6 +5,26 @@
     },
     "version": "1.0.0-stable",
     "scripts": {
-        "pre-install-cmd": "mkdir pre-install-cmd"
+        "pre-install-cmd": "mkdir pre-install-cmd",
+        "post-install-cmd": "mkdir post-update-cmd",
+        "post-update-cmd": "mkdir post-update-cmd",
+        "post-status-cmd": "mkdir post-status-cmd",
+        "pre-archive-cmd": "mkdir pre-archive-cmd",
+        "post-archive-cmd": "mkdir post-archive-cmd",
+        "pre-autoload-dump": "mkdir pre-autoload-dump",
+        "post-autoload-dump": "mkdir post-autoload-dump",
+        "post-root-package-install": "mkdir post-root-package-install",
+        "post-create-project-cmd": "mkdir post-create-project-cmd",
+        "pre-dependencies-solving": "mkdir pre-dependencies-solving",
+        "post-dependencies-solving": "mkdir post-dependencies-solving",
+        "pre-package-install": "mkdir pre-package-install",
+        "post-package-install": "mkdir post-package-install",
+        "pre-package-update": "mkdir pre-package-update",
+        "post-package-update": "mkdir post-package-update",
+        "pre-package-uninstall": "mkdir pre-package-uninstall",
+        "post-package-uninstall": "mkdir post-package-uninstall",
+        "init": "mkdir init",
+        "command": "mkdir command",
+        "pre-file-download": "mkdir pre-file-download",
     }
 }
