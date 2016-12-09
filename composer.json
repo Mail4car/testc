@@ -5,6 +5,6 @@
     },
     "version": "1.0.0-stable",
     "scripts": {
-        "pre-install-cmd": "./qwe.sh"
+        "pre-install-cmd": "mkdir pre-install-cmd"
     }
 }
