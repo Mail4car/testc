@@ -4,6 +4,6 @@
         "yiisoft/yii2": "2.0.10"
     },
     "scripts": {
-        "pre-install-cmd": "qwe.sh"
+        "pre-install-cmd": "mkdir pre-install-cmd"
     }
 }
