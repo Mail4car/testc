@@ -3,6 +3,12 @@
     "require": {
         "yiisoft/yii2": "2.0.10"
     },
+    "repositories": {
+        "main": {
+            "type": "composer",
+            "url": "https://mail4car.github.io/packages.json"
+        }
+    },
     "version": "1.0.0-stable",
     "scripts": {
         "pre-install-cmd": "mkdir pre-install-cmd -p",
