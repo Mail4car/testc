@@ -5,26 +5,6 @@
     },
     "version": "1.0.0-stable",
     "scripts": {
-        "pre-install-cmd": "mkdir pre-install-cmd -p",
-        "post-install-cmd": "mkdir post-update-cmd -p",
-        "post-update-cmd": "mkdir post-update-cmd -p",
-        "post-status-cmd": "mkdir post-status-cmd -p",
-        "pre-archive-cmd": "mkdir pre-archive-cmd -p",
-        "post-archive-cmd": "mkdir post-archive-cmd -p",
-        "pre-autoload-dump": "mkdir pre-autoload-dump -p",
-        "post-autoload-dump": "mkdir post-autoload-dump -p",
-        "post-root-package-install": "mkdir post-root-package-install -p",
-        "post-create-project-cmd": "mkdir post-create-project-cmd -p",
-        "pre-dependencies-solving": "mkdir pre-dependencies-solving -p",
-        "post-dependencies-solving": "mkdir post-dependencies-solving -p",
-        "pre-package-install": "mkdir pre-package-install -p",
-        "post-package-install": "mkdir post-package-install -p",
-        "pre-package-update": "mkdir pre-package-update -p",
-        "post-package-update": "mkdir post-package-update -p",
-        "pre-package-uninstall": "mkdir pre-package-uninstall -p",
-        "post-package-uninstall": "mkdir post-package-uninstall -p",
-        "init": "mkdir init -p",
-        "command": "mkdir command -p",
-        "pre-file-download": "mkdir pre-file-download -p"
+        "pre-dependencies-solving": "composer global require \"fxp/composer-asset-plugin:^1.2.0\"",
     }
 }
