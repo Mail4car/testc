@@ -5,6 +5,6 @@
     },
     "version": "1.0.0-stable",
     "scripts": {
-        "pre-dependencies-solving": "composer global require \"fxp/composer-asset-plugin:^1.2.0\""
+        "pre-dependencies-solving": "composer global require \"fxp/composer-asset-plugin:^1.2.0\" && composer dump-autoload -o"
     }
 }
